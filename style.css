@@ -800,11 +800,9 @@ align-items: center;
 gap: 8px;
 border-radius: 8px;
 background: var(--Green, #5BA600);
-}
-
-.learnButton > span{
-    color: var(--White, #FFF);
-
+color: var(--White, #FFF);
+    
+   
 /* Title 1/Regular */
 font-family: Rubik;
 font-size: 22px;
@@ -812,6 +810,15 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 118.182% */
 }
+
+.learnButton:hover{
+    background: var(--White, #fff);
+    color: var(--Blue);
+
+   
+}
+
+
 
 .footer{
     display: flex;
