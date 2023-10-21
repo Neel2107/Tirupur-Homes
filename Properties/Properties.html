@@ -112,6 +112,22 @@
         </div>
         <div class="propertyType priceRange">
           <p class="checkBoxTitle">Price Range</p>
+          <div class="wrapper">
+            <div class="values">
+                <span id="range1">
+                    
+                </span>
+                <span> &dash; </span>
+                <span id="range2">
+               
+                </span>
+            </div>
+            <div class="container">
+                <div class="slider-track"></div>
+                <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+                <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+            </div>
+        </div>
           <input type="range" min="0" max="100" step="100" id="" />
         </div>
         <div class="propertyType">
@@ -560,5 +576,22 @@
         <span>Tirupur Homes © 2023. All Rights Reserved.</span>
       </div>
     </footer>
+    <!-- <div class="wrapper">
+      <div class="values">
+          <span id="range1">
+              
+          </span>
+          <span> &dash; </span>
+          <span id="range2">
+         
+          </span>
+      </div>
+      <div class="container">
+          <div class="slider-track"></div>
+          <input type="range" min="0" max="100" value="30" id="slider-1" oninput="slideOne()">
+          <input type="range" min="0" max="100" value="70" id="slider-2" oninput="slideTwo()">
+      </div>
+  </div> -->
+    <script src="./script.js"></script>
   </body>
 </html>
