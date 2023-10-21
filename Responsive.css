@@ -76,18 +76,7 @@
                 padding: 0px 50px;
     }
     
-    .otherSlider {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 20px 28px;
-        grid-auto-flow: row;
-        grid-template-areas:
-          ". ."
-          ". .";
-            padding: 0px 50px;
-    }
-
+  
     .footerTop {
    
         padding: 20px 50px;
@@ -197,7 +186,7 @@
         margin: 0 23px;
     }
 
-    .midContainer {
+    .midContainer1 {
         
         padding: 12px 15px;
      
@@ -254,6 +243,20 @@
       
         line-height: 25px;
     }
+
+    .arrow2{
+        right: 50px;
+
+    }
+    .arrow1{
+        left: 50px;
+    }
+    .midContainer {
+        
+        gap: 70px;
+       
+    }
+   
 }
 
 
@@ -420,4 +423,11 @@
         width: 11rem;
     }
 
+
+    .arrow2{
+        right: 25px;
+    }
+    .arrow1{
+        left: 25px;
+    }
 }

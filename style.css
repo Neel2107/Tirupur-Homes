@@ -1110,3 +1110,14 @@ label {
   .arrow2{
     right: 160px;
   }
+
+  .midContainer{
+    display: flex;
+    gap:150px;
+  left: 350px;
+  position: relative;
+  }
+  
+  .theCard{
+    width: max-content !important;
+  }

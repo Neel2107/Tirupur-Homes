@@ -1338,6 +1338,65 @@ href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 
     <section class="otherServices">
       <h1>Other Services</h1>
+     
+      <div class="otherSlider mySwiper3">
+        <div class="midContainer swiper-wrapper">
+  
+       
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other1.jfif" alt="" />
+          <span>Engineers</span>
+        </div>
+          <div class=" theCard swiper-slide">
+            <img src="../Images/other2.jfif" alt="" />
+            <span>Electricians</span>
+          </div>
+       
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other3.jfif" alt="" />
+          <span>Legal Advisors</span>
+        </div>
+          <div class=" theCard swiper-slide">
+            <img src="../Images/other4.jfif" alt="" />
+            <span>Carpenters</span>
+          </div>
+       
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other5.jfif" alt="" />
+          <span>Plumbers</span>
+        </div>
+         
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other1.jfif" alt="" />
+          <span>Engineers</span>
+        </div>
+          <div class=" theCard swiper-slide">
+            <img src="../Images/other2.jfif" alt="" />
+            <span>Electricians</span>
+          </div>
+       
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other3.jfif" alt="" />
+          <span>Legal Advisors</span>
+        </div>
+          <div class=" theCard swiper-slide">
+            <img src="../Images/other4.jfif" alt="" />
+            <span>Carpenters</span>
+          </div>
+       
+        <div class=" theCard swiper-slide">
+          <img src="../Images/other5.jfif" alt="" />
+          <span>Plumbers</span>
+        </div>
+  
+      
+  
+      </div>
+      </div>
+  
+  
+  
+  
       <div id="left" class="otherArrow1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1355,53 +1414,7 @@ href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
           />
         </svg>
       </div>
-      <div class="otherSlider">
-        <div class="theCard">
-          <img src="../Images/other1.jfif" alt="" />
-          <span>Engineers</span>
-        </div>
-
-        <div class="theCard">
-          <img src="../Images/other2.jfif" alt="" />
-          <span>Electricians</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other3.jfif" alt="" />
-          <span>Legal Advisors</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other4.jfif" alt="" />
-          <span>Carpenters</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other5.jfif" alt="" />
-          <span>Plumbers</span>
-        </div>
-
-        <div class="theCard">
-          <img src="../Images/other1.jfif" alt="" />
-          <span>Engineers</span>
-        </div>
-
-        <div class="theCard">
-          <img src="../Images/other2.jfif" alt="" />
-          <span>Electricians</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other3.jfif" alt="" />
-          <span>Legal Advisors</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other4.jfif" alt="" />
-          <span>Carpenters</span>
-        </div>
-        <div class="theCard">
-          <img src="../Images/other5.jfif" alt="" />
-          <span>Plumbers</span>
-        </div>
-      </div>
-
-      <div id="right" class="otherArrow2 theArrow">
+      <div id="right" class="otherArrow2 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="26"
@@ -1513,6 +1526,20 @@ href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
       },
    });
 
+
+   var swiper3 = new Swiper(".mySwiper3", {
+     slidesPerView: 5,
+    
+     spaceBetween: 30,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+     navigation: {
+        nextEl: ".otherArrow2",
+        prevEl: ".otherArrow1",
+      },
+   });
         
 
 
