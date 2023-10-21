@@ -1,3 +1,5 @@
+// input range
+
 window.onload = function(){
     slideOne();
     slideTwo();

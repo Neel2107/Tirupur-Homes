@@ -1,4 +1,4 @@
-
+/* 
 .otherServices .otherSlider{
   display: grid;
   grid-auto-flow: column;
@@ -30,10 +30,7 @@
   align-items: center;
 }
 .otherSlider .theCard {
-  scroll-snap-align: start;
-  /* height: 342px; */
-  list-style: none;
-  /* background: #fff; */
+ 
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
@@ -54,4 +51,4 @@
   .otherServices .otherSlider {
     grid-auto-columns: 100%;
   }
-}
+} */
