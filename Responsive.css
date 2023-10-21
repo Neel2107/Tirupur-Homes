@@ -1,0 +1,147 @@
+@media (max-width: 769px) {
+
+    .navbar{
+
+        padding: 16px 30px;
+    }
+    .middle ul  :nth-child(3),  .middle ul :nth-child(4), .middle ul :nth-child(5){
+        display: none;
+        
+    }
+
+
+    .cards{
+         display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 28px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              ". ."
+              ". .";
+                padding: 0px 50px;
+
+    }
+
+    .mainProperty {
+     
+        width: 100%;
+        
+    }
+    .topProperties {
+        display: flex;
+        padding: 40px 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .rightImg{
+        width: 80%;
+        padding: 10px 0;
+ 
+    }
+   
+
+    .slider {
+        display: flex;
+        padding: 0px 0px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .featuredProperties {
+        display: flex;
+        padding: 40px 13px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        background: var(--Blue, #1E2B4C);
+    }
+    .featuredCards {
+        display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px 28px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              ". ."
+              ". .";
+                padding: 0px 50px;
+    }
+    
+    .otherSlider {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px 28px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". .";
+            padding: 0px 50px;
+    }
+
+    .footerTop {
+   
+        padding: 20px 50px;
+        width: 100%;
+       
+    }
+
+    .welcome {
+        display: flex;
+        height: 600px;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .center {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: 80%;
+    }
+
+    .rightImg >img {
+        object-fit: cover;
+        height: 350px;
+        width: 440px;
+    }
+
+    .namePlace>span {
+      
+        font-size: 18px;
+      
+    }
+    .namePlace>h2 {
+       
+        font-size: 35px;
+       
+    }
+    .price{
+        font-size: 25px;
+    }
+
+    .startJourney {
+   
+        padding: 40px 50px;
+        
+    }
+    .startTitle{
+        font-size: 30px;
+    }
+    .startDescription{
+        font-size: 18px;
+
+    }
+
+    .otherServices{
+        padding: 40px 50px;
+    }
+}
