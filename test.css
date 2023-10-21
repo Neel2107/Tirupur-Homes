@@ -1,3 +1,8 @@
+.featuredProperties{
+  overflow:scroll;
+}
+
+
 .middleContainer{
   display: flex;
   gap: 25px;
