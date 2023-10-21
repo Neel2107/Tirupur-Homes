@@ -256,6 +256,9 @@
     }
 }
 
+
+/* //////////////////////////////////////////////////////////mobile screen////////////////////////////////////// */
+
 @media (max-width: 477px) {
 
     .navbar{
@@ -399,5 +402,22 @@
         font-size: 35px;
     }
 
-   
+
+
+    .leftSectionProperties{
+        display: none;
+    }
+
+    .topBarProperties {
+        padding: 18px 10px;
+    }
+
+    .leftTopBar>span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .searchBar2 {
+        width: 11rem;
+    }
+
 }
