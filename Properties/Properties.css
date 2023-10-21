@@ -142,6 +142,14 @@ a {
     letter-spacing: -0.4px;
 }
 
+input[type = 'checkbox']{
+    /* background-color: var(--green); */
+    accent-color: var(--green);
+
+
+
+}
+
 .propertyType>span {
     color: #1E2B4C;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -403,7 +411,10 @@ line-height: 22px; /* 129.412% */
 border: none;
 }
 
-/* //////////////////////////////////slider///////////// */
+
+
+
+/* //////////////////////////////////slider///////////////////////////////////////////// */
 
 .wrapper {
     position: relative;
@@ -462,6 +473,7 @@ input[type="range"]::-webkit-slider-thumb{
     margin-top: -9px;
     pointer-events: auto;
     border-radius: 50%;
+   
 }
 input[type="range"]::-moz-range-thumb{
     -webkit-appearance: none;
