@@ -20,7 +20,9 @@ body {
 a {
     text-decoration: none;
 }
-
+.active > a {
+    color: var(--green);
+}
 
 .topBarProperties {
     display: flex;
