@@ -1,0 +1,57 @@
+
+.otherServices .otherSlider{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 230px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.otherSlider::-webkit-scrollbar {
+  display: none;
+}
+.otherSlider.no-transition {
+  scroll-behavior: auto;
+}
+.otherSlider.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.otherSlider.dragging .theCard {
+  cursor: grab;
+  user-select: none;
+}
+.otherSlider :where(.theCard, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otherSlider .theCard {
+  scroll-snap-align: start;
+  /* height: 342px; */
+  list-style: none;
+  /* background: #fff; */
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .otherServices .otherSlider {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .otherServices .otherSlider {
+    grid-auto-columns: 100%;
+  }
+}
