@@ -135,6 +135,10 @@
         padding: 40px 50px;
     }
 
+    .otherServices > h1{
+        font-size: 30px;
+    }
+
     .leftThumbnail>img {
         margin: 8px 0 8px 8px;
         display: none;
@@ -396,7 +400,7 @@
 
     .topProjects > h1 {
        
-        font-size: 35px;
+        font-size: 30px;
      
         line-height: 29px;
     }
