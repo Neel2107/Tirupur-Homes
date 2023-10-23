@@ -513,4 +513,74 @@
     font-weight: 700;
     line-height: 15px;
 }
+
+.mid>span, .midCenter> span {
+    color: #9B9B9B;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.278px;
+}
+
+.midCenter {
+    margin: 0 14px;
+}   
+
+.bottomLineContainer > span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.propertyCard{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.leftThumbnail{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+   
+}
+
+.leftThumbnail>img {
+    /* margin: 8px 0 8px 8px; */
+    /* display: none; */
+    height: 300px;
+    display: block;
+    margin: 0;
+    margin-top: 14px;
+}
+
+.rightData {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.midContainer1 {
+    padding: 12px 12px;
+    margin-right: 0;
+}
+
+.topPriceSocial{
+    margin: 0;
+}
+
+.bottomLineContainer {
+
+    margin-right: 0;
+
+}
+
+.middleFooter > span, .lastFooter > span {
+    font-size: 12px;
+    line-height: 24px;
+}
 }
