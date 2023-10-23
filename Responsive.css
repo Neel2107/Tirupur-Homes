@@ -434,4 +434,14 @@
     .arrow1{
         left: 25px;
     }
+
+.forCutout{
+    padding: 0;
+}
+
+.middleContainer {
+    
+    margin: 0 35px;
+
+}
 }
