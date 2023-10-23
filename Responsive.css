@@ -9,7 +9,9 @@
         
     }
 
-
+.leftTopBar > svg{
+    display: none;
+}
     .cards{
          display: grid;
             grid-template-columns: 1fr 1fr;
@@ -141,7 +143,7 @@
 
     .leftThumbnail>img {
         margin: 8px 0 8px 8px;
-        display: none;
+       
     }
 
     .propertyCard {
@@ -161,7 +163,7 @@
       
         /* width: 1156px; */
         padding: 15px 14px;
-       
+  
         row-gap: 19px;
        
     }
@@ -259,6 +261,27 @@
         
         gap: 70px;
        
+    }
+
+
+    .propertyCard{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .leftThumbnail{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .leftThumbnail  > img{
+        margin: 0;
+        width: 450px;
+    }
+
+    .rightData{
+        padding: 10px;
     }
    
 }
@@ -411,9 +434,7 @@
 
 
 
-    .leftSectionProperties{
-        display: none;
-    }
+ 
 
     .topBarProperties {
         padding: 18px 10px;
@@ -582,5 +603,51 @@
 .middleFooter > span, .lastFooter > span {
     font-size: 12px;
     line-height: 24px;
+}
+.leftTopBar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.left > img{
+    height: 40px;
+}
+.navbar {
+    padding: 5px 10px;
+}
+
+
+.leftTopBar > svg{
+    display: block;
+}
+
+.rightTopBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.leftSectionProperties {
+    /* display: none; */
+    /* display: flex; */
+    position: absolute;
+    left: -280px;
+}
+
+
+.leftSectionProperties.active{
+    left: 0px;
+}
+
+
+.rightSectionProperties {
+      
+    /* width: 1156px; */
+    padding: 15px 14px;
+display: inline-block;
+    row-gap: 19px;
+   
 }
 }

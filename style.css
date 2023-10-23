@@ -1121,3 +1121,7 @@ label {
   .theCard{
     width: max-content !important;
   }
+
+  .leftTopBar > svg{
+    display: none;
+}
